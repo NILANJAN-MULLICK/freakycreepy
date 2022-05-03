@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html, body {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+#app {
+  display: none;
+}
+
+#loader {
+  line-height: 100vh;
+  text-align: center;
+}
+
+canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 80vh;
+  max-width: 80vw;
+}
+
+.buttons {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 9999;
+}
+
+button,
+input {
+    font-family: 'Roboto', sans-serif;
+}
